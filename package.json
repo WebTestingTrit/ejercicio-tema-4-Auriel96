@@ -1,0 +1,31 @@
+{
+  "name": "quark",
+  "version": "1.1.2",
+  "description": "Fundamental project template",
+  "author": {
+    "name": "Alberto Basalo",
+    "email": "albertobasalo@agorabinaria.com",
+    "url": "https://twitter.com/albertobasalo"
+  },
+  "homepage": "https://github.com/AtomicBuilders/quark#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomicBuilders/quark.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AtomicBuilders/quark/issues"
+  },
+  "scripts": {
+    "deploy": "standard-version && git push --follow-tags origin master",
+    "updates": "ncu -u"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1",
+    "standard-version": "^9.0.0",
+    "npm-check-updates": "^8.1.1"
+  }
+}
