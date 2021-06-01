@@ -18,7 +18,8 @@
   },
   "scripts": {
     "deploy": "standard-version && git push --follow-tags origin master",
-    "updates": "ncu -u"
+    "updates": "ncu -u",
+    "start": "cypress open"
   },
   "devDependencies": {
     "eslint": "^7.8.1",
@@ -27,5 +28,8 @@
     "prettier": "^2.1.1",
     "standard-version": "^9.0.0",
     "npm-check-updates": "^8.1.1"
+  },
+  "dependencies": {
+    "cypress": "^7.3.0"
   }
 }
